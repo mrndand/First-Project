@@ -1,8 +1,143 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 .top {
     height: 30px;
     background-color: #333; 
+    color: #fff;
 }
+.topint {
+    width: 100%;
+    max-width: 1040px;
+    height: 30px;
+    margin: auto;
+}
+.topleft{
+    width: 50%;
+    height: 30px;
+    float: left;
+}
+.topright{
+    width: 50%;
+    height: 28px;
+    float: right;
+    text-align: right;
+    margin-top: 2px;
+}
+.topleft ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.topleft li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.topleft li a {
+    text-decoration: none;
+    color: #fff;
+}
+.topleft li .active {
+    color: #00f;
+}
+.topsearch {
+    width: 110px;
+    height: 21px;
+    outline: 0;  
+}
+.topright a{
+    float: right;
+}
+.topright input {
+    float: right;
+}
+.topright img {
+    margin-right: 5px;
+}
+.top2 {
+    height: 95px;
+    color: #333;
+    background-color: #999;
+}
+.top2int {
+    width: 100%;
+    max-width: 1040px;
+    height: 95px;
+    margin: auto;
+}
+.logo {
+    width: 230px;
+    height: 81px;
+    float: left;
+    margin-top: 14px;
+}
+.top2 .banner {
+    width: 650px;
+    height: 80px;
+    float: right;
+    margin-top: 7px;
+    background-color: #f00;
+}
+.menu {
+    height: 40px;
+    background-color: #f00;
+}
+.menuint {
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    margin: auto;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
