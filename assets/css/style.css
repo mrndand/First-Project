@@ -169,9 +169,7 @@ body {
 }
 .leftside {
     width: 753px;
-    min-height: 300px;
     float: left;
-    background-color: #999;
 }
 .rightside {
     width: 275px;
@@ -208,8 +206,23 @@ body {
     text-decoration: none;
     color: #000;
 }
-
-
+.slideshow {
+    height: 335px;
+    background-color: #ccc;
+    overflow: hidden;
+}
+.slideshowarea {
+    width: 1000000px;
+    height: 335px;
+    background-color: #ddd;
+}
+.slide {
+    height: 335px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 
 
