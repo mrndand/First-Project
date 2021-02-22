@@ -44,7 +44,7 @@ body {
     color: #fff;
 }
 .topleft li .active {
-    color: #00f;
+    color: #ff0;
 }
 .topsearch {
     width: 110px;
@@ -115,7 +115,6 @@ body {
 }
 .submenu {
     width: 150px;
-    height: 150px;
     background-color: #f00;
     position: absolute;
     display: none;
@@ -207,43 +206,52 @@ body {
     color: #000;
 }
 .slideshow {
-    height: 335px;
-    background-color: #ccc;
-    overflow: hidden;
+	height:335px;
+	background-color:#CCC;
+	overflow:hidden;
+	margin-bottom:20px;
 }
 .slideshowarea {
-    width: 1000000px;
-    height: 335px;
-    background-color: #ddd;
+	width:100000px;
+	height:335px;
+	background-color:#DDD;
+	transition:all 2s;
 }
 .slide {
-    height: 335px;
-    float: left;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+	height:335px;
+	float:left;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.slideinfo {
+	height:70px;
+	background-image:url('../images/slideshow_bg.png');
+	background-size: auto 70px;
+	margin-top:265px;
+}
+.slideinfo_title {
+	font-size:20px;
+	color:#FFF;
+	padding-top:15px;
+	padding-left: 20px;
+}
+.slideinfo_subtitle {
+	font-size:13px;
+	color:#FFF;
+	padding-left: 20px;
+}
+.slidedot {
+	position: absolute;
+	width:200px;
+	height:20px;
+}
+.dot {
+	width:20px;
+	height:20px;
+	float:left;
+	margin-right:5px;
+	cursor:pointer;
+	background-color:#CCC;
+	border-radius:10px;
+}

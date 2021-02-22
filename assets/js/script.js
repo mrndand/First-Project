@@ -24,7 +24,6 @@ function mudarSlide(pos) {
 	var slidewidth = document.getElementById("slideshow").offsetWidth;
 	document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-"+(slidewidth * slideItem)+"px";
 }
-
 function toggleMenu() {
 
 	var menu = document.getElementById("menu");
