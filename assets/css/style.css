@@ -310,3 +310,179 @@ body {
 .menumobile {
 	display:none;
 }
+@media only screen and (min-width:906px) and (max-width:1057px) {
+
+	.topint,
+	.top2int,
+	.menuint,
+	.latestnewsint,
+	.containerint {
+		max-width:890px;
+	}
+
+	#menu {
+		display:block !important;
+	}
+
+	.leftside {
+		width:600px;
+	}
+	.newsarea1 {
+		width:278px;
+	}
+	.bignews .newsimg {
+		width:245px;
+	}
+	.bignews .newsimg img {
+		width:245px;
+	}
+	.bignews .newstitle {
+		width: 245px;
+    	font-size: 25px;
+	}
+
+}
+
+@media only screen and (min-width:783px) and (max-width:906px) {
+
+	.topint,
+	.top2int,
+	.menuint,
+	.latestnewsint,
+	.containerint {
+		max-width:768px;
+	}
+
+	.top2 .banner {
+		display:none;
+	}
+
+	#menu {
+		display:block !important;
+	}
+
+	.logo {
+		float:none;
+		margin:auto;
+	}
+
+	.rightside {
+		display:none;
+	}
+
+	.leftside {
+		float:none;
+		width:auto;
+	}
+
+	.newsarea1 {
+		width:446px;
+	}
+	.bignews .newsimg {
+		width:415px;
+	}
+	.bignews .newsimg img {
+		width:415px;
+	}
+	.bignews .newstitle {
+		width: 415px;
+    	font-size: 25px;
+	}
+
+}
+
+@media only screen and (max-width:783px) {
+
+	.topint,
+	.top2int,
+	.menuint,
+	.latestnewsint,
+	.containerint {
+		max-width:320px;
+	}
+
+	.topleft {
+		display:none;
+	}
+	.topright {
+		width:100%;
+	}
+
+	.top2 .banner {
+		display:none;
+	}
+
+	.logo {
+		float:none;
+		margin:auto;
+	}
+
+	.menumobile {
+		display:block;
+	}
+
+	.menu ul {
+		position:absolute;
+		background-color: red;
+		z-index: 10;
+		display:none;
+	}
+	.menu li {
+		float:none;
+		height:auto;
+	}
+	.menu li img {
+		display:none;
+	}
+	.submenu {
+		position:static;
+		display:block;
+	}
+
+	.latestnews {
+		display:none;
+	}
+
+	.rightside {
+		display:none;
+	}
+
+	.leftside {
+		float:none;
+		width:auto;
+		margin-top:10px;
+	}
+
+	.newsarea1 {
+		width:320px;
+		height:auto;
+	}
+	.bignews .newsimg {
+		width:290px;
+	}
+	.bignews .newsimg img {
+		width:290px;
+	}
+	.bignews .newstitle {
+		width: 290px;
+    	font-size: 25px;
+	}
+
+	.newsarea2 {
+		width:300px;
+		margin:auto;
+		float:none;
+		clear:both;
+		padding-top:20px;
+	}
+	.newsitem {
+		clear:both;
+	}
+	.newstitle {
+		width:206px;
+	}
+	.newsinfo {
+		width:206px;
+	}
+
+}
